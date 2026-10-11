@@ -23,3 +23,8 @@ for i in range (n):
     l.append(a)
 x,y=map(int,input().split())
 print(l[x-1][y])
+
+**ABOUT MY CODE**
+Time :- O(1)
+Space :- O(1)
+Approach :- Array
