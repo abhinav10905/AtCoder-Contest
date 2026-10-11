@@ -1,1 +1,6 @@
-
+**QUESTION**
+A - Array
+You are given a sequence 
+A=(A1,A2,⋯,AN) of length N.
+After that, an integer X between 1 and N, inclusive, is given.
+Output the value of AX.
