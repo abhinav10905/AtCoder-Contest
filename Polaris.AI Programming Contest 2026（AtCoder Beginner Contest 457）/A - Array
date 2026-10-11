@@ -9,3 +9,9 @@ Output the value of AX.
 1≤X≤N≤100
 1≤Ai≤100
 All input values are integers.
+
+**CODE**
+n=int(input())
+a=list(map(int,input().split()))
+x=int(input())
+print(a[x-1])
