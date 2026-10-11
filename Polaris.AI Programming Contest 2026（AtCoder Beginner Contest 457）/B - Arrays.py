@@ -14,3 +14,12 @@ After that, integers X and Y are given. Output the value of AX,Y​.
 1≤X≤N
 1≤Y≤LX
 ​All input values are integers.
+
+**CODE**
+n=int(input())
+l=[]
+for i in range (n):
+    a=list(map(int,input().split()))
+    l.append(a)
+x,y=map(int,input().split())
+print(l[x-1][y])
