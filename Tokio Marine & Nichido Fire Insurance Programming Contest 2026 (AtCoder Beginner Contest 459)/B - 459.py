@@ -11,3 +11,8 @@ If the first character of Si is one of p, q, r, s, then Ci = 7
 If the first character of Si is one of t, u, v, then Ci = 8
 If the first character of Si is one of w, x, y, z, then Ci = 9
 Output the string obtained by concatenating C1,C2,…,CN in this order.
+
+**CONSTRAINTS**
+1≤N≤10
+N is an integer.
+Si is a string of length between 1 and 10, inclusive, consisting of lowercase English letters.
