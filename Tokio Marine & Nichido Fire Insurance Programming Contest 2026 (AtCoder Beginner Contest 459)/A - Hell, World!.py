@@ -10,3 +10,8 @@ X is an integer between 1 and 10, inclusive.
 n=int(input())
 a="HelloWorld"
 print(a[:n-1]+a[n:])
+
+**ABOUT MY CODE**
+Time :- O(n)
+Space :- O(1)
+Approach :- String
