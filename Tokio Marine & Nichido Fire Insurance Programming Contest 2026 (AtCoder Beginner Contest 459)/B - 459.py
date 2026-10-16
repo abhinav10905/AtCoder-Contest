@@ -39,3 +39,8 @@ for i in s:
     else:
         a+="9"
 print(a)
+
+**ABOUT MY CODE**
+Time :- O(m)
+Space :- O(n)
+Approach :- Array
