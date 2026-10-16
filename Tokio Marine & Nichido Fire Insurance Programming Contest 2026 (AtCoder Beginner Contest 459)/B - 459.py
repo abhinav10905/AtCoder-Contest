@@ -16,3 +16,26 @@ Output the string obtained by concatenating C1,C2,…,CN in this order.
 1≤N≤10
 N is an integer.
 Si is a string of length between 1 and 10, inclusive, consisting of lowercase English letters.
+
+**CODE**
+n=int(input())
+s=list(map(str,input().split()))
+a=""
+for i in s:
+    if ord(i[0])<100:
+        a+="2"
+    elif ord(i[0])<103:
+        a+="3"
+    elif ord(i[0])<106:
+        a+="4"
+    elif ord(i[0])<109:
+        a+="5"
+    elif ord(i[0])<112:
+        a+="6"
+    elif ord(i[0])<116:
+        a+="7"
+    elif ord(i[0])<119:
+        a+="8"
+    else:
+        a+="9"
+print(a)
