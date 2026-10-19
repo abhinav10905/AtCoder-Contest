@@ -24,3 +24,8 @@ for i in s:
     b=0
 c=max(b,c)
 print(c)
+
+**ABOUT MY CODE**
+Time :- O(n)
+Space :- O(1)
+Approach :- String, Math
