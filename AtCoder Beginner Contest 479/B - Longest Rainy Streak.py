@@ -10,3 +10,17 @@ If Takahashi never recorded "rainy", the answer is 0.
 **CONSTRAINTS**
 N is an integer satisfying 1≤N≤100.
 S is a string of length N consisting of S and R.
+
+**CODE**
+n=int(input())
+s=input()
+c=0
+b=0
+for i in s:
+  if i=="R":
+    b+=1
+  else:
+    c=max(b,c)
+    b=0
+c=max(b,c)
+print(c)
