@@ -8,3 +8,12 @@ More formally, find the sum of Ai over all odd i satisfying 1≤i≤N.
 All input values are integers.
 1≤N≤100
 1≤Ai≤100
+
+**CODE**
+n=int(input())
+a=list(map(int,input().split()))
+c=0
+for i in range (0,n):
+  if i%2==0:
+    c+=a[i]
+print(c)
