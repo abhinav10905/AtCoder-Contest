@@ -17,3 +17,8 @@ for i in range (0,n):
   if i%2==0:
     c+=a[i]
 print(c)
+
+**ABOUT MY CODE**
+Time :- O(n)
+Space :- O(1)
+Approach :- Array, Math
