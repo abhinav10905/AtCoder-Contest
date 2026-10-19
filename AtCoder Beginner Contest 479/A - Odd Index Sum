@@ -1,1 +1,5 @@
-
+**QUESTION**
+A - Odd Index Sum
+You are given an integer sequence of length N: A=(A1,A2,…,AN).
+Find the sum of the odd-indexed terms of A.
+More formally, find the sum of Ai over all odd i satisfying 1≤i≤N.
